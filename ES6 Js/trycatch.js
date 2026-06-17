@@ -17,3 +17,19 @@ try {
 }
 
 console.log("Thank you for using our ATM.");
+
+
+
+// console.log("Program started...");
+
+// try {
+//     // 1. JavaScript will 'Try' to execute this code
+//     downloadData(); // Supposing this function does not exist (Causes an Error)
+    
+// } catch (error) {
+//     // 2. If any error occurs above, instead of crashing, the code directly jumps here
+//     console.log(" Unexpected Error Occurred: " + error.message);
+// }
+
+// // 3. See the magic! This line runs successfully and the program does not stop.
+// console.log("Program did not crash. This important next line executed successfully!");
