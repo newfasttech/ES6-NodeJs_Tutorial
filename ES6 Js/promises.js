@@ -14,11 +14,11 @@ const fetchUser = (userId)=>{
 
 fetchUser(101)
     .then((user)=>{
-        console.log("User Found:",user)
+        console.log("User Found:",user)      
+        console.log("Demo....");
     })
     .catch((error)=>{
         console.log("Error :",error)
     })
 
-    console.log("Demo....");
     
