@@ -5,12 +5,22 @@
 // demo()
 
 
-const waiting = async ()=>{
-    try{
-        await setTimeout(()=>{console.log("Wait wait..");},3000)       
-    }catch(err){
+const waiting = async () => {
+    try {
+      યું
+        await new Promise((resolve) => {
+            setTimeout(() => {
+                console.log("Wait wait..");
+                resolve(); 
+            }, 3000);
+        });
+        
+    } catch (err) {
         console.log(err);
     }
+    
+
     console.log("NO Wait...");
 }
-waiting()
+
+waiting();
