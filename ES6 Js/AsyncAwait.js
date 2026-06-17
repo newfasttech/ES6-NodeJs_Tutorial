@@ -7,7 +7,7 @@
 
 const waiting = async () => {
     try {
-      યું
+      
         await new Promise((resolve) => {
             setTimeout(() => {
                 console.log("Wait wait..");
