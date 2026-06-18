@@ -1,0 +1,12 @@
+ES6 module use karva mate 
+
+step 1: create node project
+    run command : npm init -y
+    -- hit this command make package.json 
+step 2: make one file file_name.js
+step 3: change in package.json
+        -- old is "type": "commonjs"
+        -- new is "type": "module"
+
+-> use export keyword for export module function
+-> use import keyword for import module 
